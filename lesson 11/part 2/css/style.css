@@ -1,0 +1,15 @@
+p{
+    /*color: red;
+    color: rgb(255,0 ,0 );*/
+    color: #ff0000;
+    font-size: 20px;
+    /*border: 3px solid red;*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+}
+body{
+    /*background-color: blue;*/
+    background: url(../images/clusterofstars.png);
+    background-size: cover;
+}
