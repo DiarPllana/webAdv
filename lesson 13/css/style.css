@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    /*list-style-image: url(../images/alf.png);*/
+    padding: 0px;
+    margin: 20px;
+    border: 2px solid gray;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+
+ol {
+    background-color: #ffeeee;
+    border: 2px solid gray;
+    list-style-type: lower-latin;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: green;
+}
+
+thead{
+    background-color: red;
+}
+
+div{
+    overflow:scroll;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
